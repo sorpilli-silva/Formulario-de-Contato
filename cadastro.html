@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>formulario de cadastro </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"><link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+   
+<body class="bg-danger">
+    <div class="container">
+    <form class="row g-3">
+   <h1> dados pessoais</h1>
+ 
+   <div class="col-3">
+    <label for="inputAddress2" class="form-label">nome</label>
+    <input type="text" class="form-control" id="nome" placeholder="nome">
+  </div>
+ 
+  <div class="col-3">
+    <label for="inputAddress2" class="form-label">data de nacimento</label>
+    <input type="date" class="form-control" id="data_naci" placeholder="sua data de nacimento">
+  </div>
+ 
+  <div class="col-4">
+    <label for="inputAddress2" class="form-label">email</label>
+    <input type="email" class="form-control" id="email" placeholder="exemplo@email.com">
+  </div>
+ 
+  <div class="col-4">
+    <label for="inputPassword4" class="form-label">senha</label>
+    <input type="password" class="form-control" id="Password" placeholder="sua senha aqui">
+  </div>
+ 
+  <div class="col-4">
+    <label for="inputPassword4" class="form-label">comfirme sua senha</label>
+    <input type="password" class="form-control" id="Password_2" placeholder="comfirme sua senha aqui">
+  </div>
+ 
+        <!-- <div class="col-md-4">
+            <label for="inputPassword4" class="form-label">comfirme sua senha</label>
+            <input type="password" class="form-control" id="inputPassword5">
+          </div> -->
+ 
+      <h1>dados de endereço</h1>
+        <div class="col-3">
+          <label for="inputAddress" class="form-label">endereço</label>
+          <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+        </div>
+ 
+        <div class="col-3">
+          <label for="inputAddress2" class="form-label">rua</label>
+          <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+        </div>
+        <div class="col-md-3">
+          <label for="inputCity" class="form-label">Cidade</label>
+          <input type="text" class="form-control" id="inputCity">
+        </div>
+ 
+        <div class="col-md-3">
+          <label for="inputCity" class="form-label">estado</label>
+          <input type="text" class="form-control" id="estado">
+        </div>
+ 
+        <div class="col-md-2">
+          <label for="inputZip" class="form-label">cep</label>
+          <input type="text" class="form-control" id="inputZip">
+        </div>
+ 
+        <div class="col-12">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="gridCheck">
+            <label class="form-check-label" for="gridCheck">
+              Check me out
+            </label>
+          </div>
+ 
+        </div>
+        <div class="col-12">
+          <button type="submit" class="btn btn-primary">cadastro</button>
+        </div>
+      </form>
+    </div>
+</body>
+</html>
